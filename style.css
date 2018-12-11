@@ -1,0 +1,86 @@
+html{
+  font-size: 1.2em;
+  background-color:#EFEBE9;
+  font-family: Unlock;
+  color: green;
+}
+.instr{
+  text-align: center;
+}
+nav{
+  position: fixed;
+  width: 40%;
+  top: 0;
+  left: 0;
+  height: 100%; 
+  font-size: 1.5em;
+}
+nav ul {
+  position: relative;
+  top: 15%;
+}
+nav li{
+  list-style: none;
+  text-decoration: none;
+  list-style-type: upper-roman;
+  padding-top: 20px;
+  width: 100%;
+} 
+   
+.main-doc{
+  width: 50%;
+  position: relative;
+  left: 40%;
+}
+
+.main-title{
+  position: absolute;
+  left: 110%;
+    -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  margin: 0.1em 0.5em 0 0;
+height: 570px;
+  width: 80px;
+  background-color: green;
+color: white;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+#house{
+  height: 25em;
+  width: 30em;
+} 
+#zombie,#window-1,#window-2,#window-3,#civillian{
+  height: 6.5em;
+  width: 6.6em;
+}
+#window-1{
+  position: absolute;
+  left: 130px;
+  top: 185px;
+  cursor: pointer;
+}
+#window-2{
+  position: absolute;
+  left: 318px;
+  top: 185px;
+  cursor: pointer;
+}
+#window-3{
+  position: absolute;
+  left: 320px;
+  top: 320px;
+  cursor: pointer;
+}
+#start{
+  position: absolute;
+  top: 120px;
+  left: 230px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
