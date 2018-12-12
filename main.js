@@ -95,9 +95,9 @@ startButton.onclick = () => {
   
   const gameOver = (status) => {
     if(status == 'win'){
-      startButton.innerHTML = 'You win! Play again?'
+      startButton.innerHTML = 'You win!<br>Play again?'
     }else{
-      startButton.innerHTML = 'Game over! Click to play again'
+      startButton.innerHTML = 'Game over!<br>Play again?'
     }
       currentlyPlaying = false;
   }
